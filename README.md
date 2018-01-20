@@ -1,10 +1,4 @@
-# Shiny Snake
-
-***
-
-🤡 Shiny App with Snake Loading Screen 🤡
-
-***
+# 🤡 Shiny App with Snake Loading Screen 🤡
 
 #### While Loading
 
