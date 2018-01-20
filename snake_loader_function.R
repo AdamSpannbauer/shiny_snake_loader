@@ -1,7 +1,9 @@
 snake_loader = function(outputId) {
   snake_game_html = 
           '
+          <h1 style="color:white;">Play Snake while you wait!</h1>
           <canvas id="gc" width="400" height="400"></canvas>
+          <p style="color:white;">use <kbd>←</kbd>&nbsp;<kbd>↕</kbd>&nbsp;<kbd>→</kbd> to play</p>
           <script>
           window.onload=function() {
               canv=document.getElementById("gc");
