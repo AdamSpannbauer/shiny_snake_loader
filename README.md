@@ -1,2 +1,7 @@
-# shiny_snake_loader
-worthless shiny app with a snake game loader
+# Snake Game Shiny Loading Screen
+
+Worthless Shiny App with a Snake Game loader.
+
+<kbd>
+  <img src="readme/app_screenshot.png">
+</kbd>
