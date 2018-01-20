@@ -1,4 +1,4 @@
-# 🤡 Shiny App with Snake Loading Screen 🤡
+# 🐍 Shiny App with Snake Loading Screen 🐍
 
 <p align="center">
   <kbd>
