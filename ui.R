@@ -1,4 +1,8 @@
-source("snake_loader_function.R")
+# devtools::install_github("AdamSpannbauer/snakeLoadR")
+
+library(shiny)
+library(snakeLoadR)
+
 shinyUI(
   fluidPage(
     theme=shinythemes::shinytheme('cosmo'),
@@ -15,6 +19,8 @@ shinyUI(
       )#column
     ),#fRow
     #snake game to appear while 'my_output' is recalculating
-    snake_loader(outputId = "my_output")
+    snakeLoadR::snake_loader(outputId = "my_output", 
+                             header = "Play Snake while you wait!", 
+                             controls = TRUE)
   )#fPage
 )#shinyUI
